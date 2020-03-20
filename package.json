@@ -4,9 +4,10 @@
   "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
   "main": "index.js",
   "scripts": {
+    "now:b": "npm run build",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint":"standard"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,8 @@
   },
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
   },
   "standard": {
     "ignore": [
@@ -42,5 +44,6 @@
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
-  }
+  },
+  "keywords": []
 }
